@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Playfair+Display&display=swap');
+
+
+.nav-container {
+    background-image: url("./assets/yarn-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+
+}
+
+.nav-menu {
+
+    float: left;
+    color: #1c013b;
+    text-decoration: none;
+    justify-content: center;
+
+
+
+}
+
+.navbar-items {
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-top: 155px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 5px -2px 4px white;
+
+}
+
+.navbar-items:nth-child(2) {
+
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 0px 10px 0px
+}
+
+.navbar-items:nth-child(4) {
+    border-left: 2px solid white;
+    padding: 0px 10px 0px
+
+}
+
+.nav-title {
+    color: #2a592f;
+    float: left;
+    margin-top: 100px;
+    padding-left: 75px;
+    padding-right: 100px;
+    font-family: 'Fleur De Leah', cursive;
+    font-weight: 500;
+    font-size: 60px;
+    text-shadow: 5px -2px 4px white;
+}
+
+.logo {
+    width: 50px;
+    position: absolute;
+    margin-right: 200px;
+    margin-top: 110px;
+    margin-left: 10px;
+
+}
+
+
+/*------------------speacial effects-------------------*/
+
+.navbar-items:hover {
+
+    color: #956fd9;
+    
+}
