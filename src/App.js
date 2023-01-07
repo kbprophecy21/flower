@@ -1,6 +1,8 @@
 import React from 'react';
 import { Navbar } from './Components/common';
 import { Main } from './Components/common';
+import { Footer } from './Components/common';
+
 import './App.css';
 
 function App() {
@@ -8,6 +10,7 @@ function App() {
     <div className="App">
     <Navbar />
     <Main />
+    <Footer />
        
     </div>
   );
