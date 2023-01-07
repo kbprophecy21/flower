@@ -1,32 +1,27 @@
 import React from "react";
 import './Main.css';
-import img from './assets/crochet_purple.jpg';
+import mens from './assets/mens.jpg';
+import women from './assets/womens.jpg';
+import decor from './assets/decor.jpg';
+import accesories from './assets/accesories.jpg';
 
 
 function Main() {
 
     return (
-        <div className="main-section">
-            <img className="img-content" src={img}></img>
+        <section className="main-section">
 
-            <section className='side-section'>
-                <h2>Alter, Repair & Mend</h2>
-                <p>
-                    This is a great space to write long text about your company and your services.
-                    You can use this space to go into a little more detail about your company.
-                    Talk about your team and what services you provide.
-                    Tell your visitors the story of how you came up with the idea for your business
-                    and what makes you different from your competitors.
-                    Make your company stand out and show your visitors who you are.
-                </p>
-
-            </section>
+            <p className="text-men">Mens</p>
+            <p className="text-women">Women</p>
+            <p className="text-decor">Decor</p>
+            <p className="text-accesories">Accesories</p>
+            <img className='images' src={mens}></img>
+            <img className="images" src={women}></img>
+            <img className="images" src={decor}></img>
+            <img className="images" src={accesories}></img>
 
 
-
-
-
-        </div>
+        </section>
     )
 }
 
