@@ -52,7 +52,7 @@
     color: #2a592f;
     float: left;
     margin-top: 100px;
-    padding-left: 75px;
+    padding-left: 25px;
     padding-right: 100px;
     font-family: 'Fleur De Leah', cursive;
     font-weight: 500;
@@ -63,8 +63,10 @@
 .logo {
     width: 50px;
     position: absolute;
+    top: 55px;
+    left: 40px;
     margin-right: 200px;
-    margin-top: 110px;
+    
     margin-left: 10px;
 
 }
