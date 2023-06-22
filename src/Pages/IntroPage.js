@@ -7,10 +7,11 @@ import './Styles/IntroPage.css';
 export default function IntroPage() {
   return (
     <div className="App">
-    <Navbar />
-    <Main />
-    <Footer />
-       
+
+      <Navbar />
+      <Main />
+      <Footer />
+
     </div>
   );
 }
