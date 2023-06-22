@@ -18,6 +18,9 @@
 .env.test.local
 .env.production.local
 
+#Testing files
+/src/Pages/DummyPics
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
